@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <a href="/" > HOME</a>
+        <link rel="stylesheet" href="styles.css">
+        <form method = "post" action = "newparcel">
+            Description <input type ="text" name = "description"/> </br>
+            Shipment Type <select name = "shipType"> 
+                <option value = "express"> Express</option>
+                <option value = "standard"> Standard</option>
+            </select>
+            </br>
+            Cost <input type = "number" name = "cost" /> </br>
+            Sender <input type = "text"  name = "sender" /> </br>
+            Address <input type = "text" name = "add" /></br>
+            Weight <input type = "number" name = "weight" /></br>
+            Fragile <select name = "fragile" >
+                <option value = "yes"> Yes</option>
+                <option value = "no"> No </option>
+            </select>
+            </br>
+            <button type ="submit"> Submit Parcel </button>
+
+        </form>
+        <a href="/listparcel" > Show List of Parcels</a>
+    </body>
+</html>
